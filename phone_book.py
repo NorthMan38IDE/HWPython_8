@@ -17,7 +17,7 @@ class PhoneBook:
         print('\nТелефонная книга успешно загружена!\n')
 
     def save_file(self):
-        with open(self.path, 'r', encoding='utf-8') as data:
+        with open("data.txt", 'r', encoding='utf-8') as data:
             for contact in data:
                 data.write(data)
 
